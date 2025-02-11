@@ -17,11 +17,11 @@ export const CalculosPesados = () => {
 
     return (
     <>
-    <h1>Calculo</h1>
-    <p>{ getCalculo(listaNumeros) }</p>
+        <h1>Calculo</h1>
+        <p>{ getCalculo(listaNumeros) }</p>
 
-    <button className="btn btn-primary" onClick={() => setShow(!show)}>{show ? 'Show' : 'Hide'}</button>
-    <button className="btn btn-primary" onClick={() => agregarNumero()}>Agregar número</button>
+        <button className="btn btn-primary" onClick={() => setShow(!show)}>{show ? 'Show' : 'Hide'}</button>
+        <button className="btn btn-primary" onClick={() => agregarNumero()}>Agregar número</button>
     </>
     )
 }
